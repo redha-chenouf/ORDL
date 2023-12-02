@@ -1,50 +1,58 @@
 # Jeu de Devinette de Chiffres en Python
 
-Ce projet est un simple jeu de devinette de chiffres écrit en Python. L'objectif est de deviner un nombre aléatoire choisi par l'ordinateur entre 1 et 100. 
+## Présentation
+
+Ce projet est un jeu de devinette de nombres, implémenté en Python. L'utilisateur doit deviner un nombre aléatoire généré par l'ordinateur, situé entre 1 et 100.
 
 ## Prérequis
 
-Avant de démarrer le jeu, assurez-vous de répondre aux exigences suivantes :
+Pour jouer, assurez-vous de disposer de :
+- **Python** : Nécessaire pour exécuter le jeu. Téléchargeable sur [python.org](https://www.python.org/downloads/).
+- **Connaissances basiques en ligne de commande** : Pour lancer le jeu via un terminal ou une invite de commande.
+- **Éditeur de texte** : Pour modifier le code. Des options incluent [VS Code](https://code.visualstudio.com/), [Sublime Text](https://www.sublimetext.com/), etc.
 
-- **Python** : Le jeu est écrit en Python, vous devez donc avoir Python installé sur votre système. Si vous n'avez pas encore installé Python, vous pouvez le télécharger et l'installer à partir de [python.org](https://www.python.org/downloads/).
+## Installation et Démarrage
 
-- **Connaissance de base en ligne de commande** : Vous devrez utiliser une ligne de commande (terminal sur macOS/Linux ou invite de commande/Powershell sur Windows) pour exécuter le jeu.
+Pour jouer, suivez ces étapes :
+1. Clonez le dépôt : `git clone git@github.com:redha-chenouf/ORDL.git`
+2. Accédez au répertoire du projet : `cd ORDL`
+3. Entrez dans le dossier du code : `cd SRC`
+4. Lancez le jeu : `python main.py`
 
-- **Éditeur de texte** : Si vous souhaitez modifier le code, vous aurez besoin d'un éditeur de texte, tel que [VS Code](https://code.visualstudio.com/), [Sublime Text](https://www.sublimetext.com/), ou un autre de votre choix.
+## Structure du Code
 
-Une fois ces prérequis satisfaits, vous serez prêt à télécharger le code et à commencer à jouer.
-
-## Installation
-
-Aucune installation spéciale n'est nécessaire. Vous avez juste besoin d'avoir Python installé sur votre ordinateur.
-
-## Structure du Projet
-
-Le projet est divisé en deux fichiers principaux :
-
-- `game.py` : Contient la logique du jeu, y compris la génération de nombres aléatoires et la gestion des entrées de l'utilisateur.
-- `main.py` : Fichier exécutable pour démarrer le jeu. Il importe et exécute la fonction du jeu depuis `game.py`.
+Le jeu se compose de :
+- `game.py` : Gère la logique du jeu, incluant la génération de nombres aléatoires.
+- `main.py` : Point d'entrée pour démarrer le jeu, faisant appel à `game.py`.
 
 ## Comment Jouer
 
-1. Clonez ou téléchargez ce dépôt sur votre ordinateur.
-2. Ouvrez un terminal ou une invite de commande.
-3. Naviguez jusqu'au dossier contenant les fichiers du projet.
-4. Exécutez la commande `python main.py` pour démarrer le jeu.
-5. Suivez les instructions à l'écran pour deviner le nombre.
+1. Clonez ou téléchargez le dépôt.
+2. Ouvrez un terminal/commande.
+3. Accédez au dossier du projet.
+4. Démarrez le jeu avec `python main.py`.
+5. Suivez les instructions pour deviner le nombre.
 
-## Règles du Jeu
+## Règles
 
-- Le jeu choisira un nombre entre 1 et 100.
-- Vous devez deviner ce nombre en entrant vos suppositions.
-- Après chaque tentative, le jeu vous informera si votre supposition était trop haute ou trop basse.
-- Le jeu continue jusqu'à ce que vous deviniez correctement le nombre.
-- À la fin, le jeu affichera le nombre de tentatives que vous avez prises pour trouver le bon nombre.
+- Le jeu sélectionne un nombre entre 1 et 100.
+- Devinez ce nombre. Le jeu indique si votre supposition est trop haute ou basse.
+- Continuez jusqu'à trouver le bon nombre.
+- Le jeu affiche le nombre de tentatives nécessaires à la fin.
+
+## Contributions
+
+Pour contribuer :
+1. Fork le projet.
+2. Créez une branche : `git checkout -b feature/NomDeCeQueVousVoulezModifier`.
+3. Commit vos changements : `git commit -m 'CeQueJaiModifie'`.
+4. Push vers la branche : `git push origin feature/NomDeCeQueVousVoulezModifier`.
+5. Ouvrez une pull request.
 
 ## Auteur
 
-Ce programme a été développé par Redha CHENOUF.
+Développé par Redha CHENOUF.
 
-## Contribution
+## Comment Contribuer
 
-Toute contribution, suggestion ou rapport de bug est la bienvenue. N'hésitez pas à ouvrir une issue ou à proposer une pull request.
+Toute contribution ou suggestion est bienvenue. Ouvrez une issue ou proposez une pull request pour participer.
