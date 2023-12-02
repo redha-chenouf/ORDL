@@ -1,21 +1,22 @@
-# Programme Afficheur de Nombres en Python
-Ce programme Python est conçu pour afficher des nombres de différentes manières. Il permet d'afficher des séquences de nombres, des nombres aléatoires ou des nombres dans différents formats (décimal, hexadécimal, etc.).
+# Programme Afficheur de Nombres en C
+Ce programme en langage C est élaboré pour afficher des nombres sous diverses formes. Il peut générer des séquences de nombres, des nombres aléatoires ou des nombres dans différents formats (comme le décimal ou l'hexadécimal).
 
 # Prérequis
-Assurez-vous que Python est installé sur votre ordinateur.
+Assurez-vous que le compilateur C est installé sur votre système.
 
-# Étapes d'installation
-Pour commencer, clonez ce dépôt sur votre machine :
--git clone https://github.com/RedhaCHENOUF/PythonNumberDisplay.git
+# Instructions d'installation
+#### Pour démarrer, clonez ce dépôt sur votre ordinateur en utilisant la commande :
+-git clone https://github.com/RedhaCHENOUF/ORDL.git
 
-Ensuite, naviguez vers le répertoire du projet :
--cd PythonNumberDisplay
+#### Puis, dirigez-vous vers le dossier du projet avec la commande :
+-cd CNumberDisplay
 
-Finalement, lancez le programme avec Python :
--python display_numbers.py
+#### Enfin, compilez et exécutez le programme en utilisant :
+###### -gcc display_numbers.c -o display_numbers
+###### -./display_numbers
 
 # Auteur
-Redha CHENOUF
+Ce programme a été développé par Redha CHENOUF.
 
-# Remarque
-Ce projet est ouvert à la collaboration. N'hésitez pas à contribuer et à partager vos idées d'amélioration !
+# Note
+Ce projet est ouvert à la collaboration. Toute participation, suggestion ou idée d'amélioration est grandement appréciée et encouragée !
