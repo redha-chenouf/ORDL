@@ -1,9 +1,28 @@
-#include <stdio.h>
+# Fichiers objets
+*.o
 
-int main() {
-    printf("Bienvenue sur le Linkedin de Redha CHENOUF\n");
-    printf("Bienvenue sur le Linkedin de Redha CHENOUF\n");
-    printf("Bienvenue sur le Linkedin de Redha CHENOUF\n");
-    
-    return 0;
-}
+# Fichiers binaires
+*.out
+*.exe
+*.bin
+*.dll
+*.so
+
+# Fichiers générés lors de la compilation
+*.a
+*.lib
+
+# Dossiers de build
+build/
+release/
+
+# Fichiers de sauvegarde
+*~
+*.bak
+*.tmp
+
+# Autres fichiers et dossiers
+.DS_Store
+.vscode/
+.idea/
+*.swp
